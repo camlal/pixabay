@@ -10,7 +10,7 @@
   }
   
   div img {
-      width: 5rem;
+      width: 15rem;
       height: auto;
       margin-left: 1rem;
   }
@@ -68,7 +68,7 @@
   .sessao1 {
     display: flex;
     padding: 10vh;
-    background-color: rgba(0, 255, 255, 0.427);
+    background-color: grey;
     color: black;
   }
   
@@ -80,14 +80,18 @@
 
 
   .box {
+    background: linear-gradient(180deg, rgba(187, 187, 187, 0.71) 0%, rgba(47, 47, 47, 0.678) 100%), url(textura.png);
+    background-position: center;
+    background-attachment: fixed;
     height: 100vh; /*Altura total disponível*/
     width: 100vw; /*Largura total disponível*/
     display: flex; /*Itens lado a lado*/
     flex-direction: row; 
     gap: 20px;
     justify-content: center;  /*justificando itens na horizontal*/  
-    align-items: center;   /*Alinhamento vertical*/
-    /* flex-wrap: wrap;       /*Fazer a quebra dos itens */
+    align-items: center;
+     /*Alinhamento vertical*/
+    flex-wrap: wrap;       
    
    }
    
@@ -96,7 +100,6 @@
      height: 150px; /*Altura*/
      width: 150px;  /*Largura*/
      border: 1px solid black; /*Estilização da borda*/
-     background-color: rgb(171, 23, 134); /*Cor de fundo*/
      font-size: 60px; /*Tamanho da letra*/
      box-shadow: 10px 10px 10px black;
      border-radius: 10px;
