@@ -83,6 +83,8 @@
     background: linear-gradient(180deg, rgba(187, 187, 187, 0.71) 0%, rgba(47, 47, 47, 0.678) 100%), url(textura.png);
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh; /*Altura total disponível*/
     width: 100vw; /*Largura total disponível*/
     display: flex; /*Itens lado a lado*/
